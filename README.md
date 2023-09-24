@@ -1,6 +1,6 @@
-# Sleep / Shutdown Timer Script
+# Multi-OS Sleep or Shutdown Timer Scripts
 
-A user-friendly and robust zsh script that schedules sleep or shutdown for macOS devices, providing a countdown and the ability to abort the planned action.
+This repository contains scripts to schedule either sleep or shutdown for macOS, Linux, and Windows devices. Each script provides a countdown and the ability to abort the planned action.
 
 ## Features
 - User can choose between putting the device to sleep or shutting it down.
@@ -9,10 +9,12 @@ A user-friendly and robust zsh script that schedules sleep or shutdown for macOS
 - Allows user to specify the delay before the chosen action in minutes.
 - Displays the exact time when the device will perform the chosen action.
 - Provides a countdown every minute until the action time.
-- Allows aborting the planned action by pressing `Ctrl+C`.
+- Allows aborting the planned action by pressing `Ctrl+C` (macOS and Linux only).
 
 ## Usage
-1. Clone this repository or download the `sleep_shutdown_timer.zsh` file.
+
+### macOS
+1. Download the `sleep_timer_macos.zsh` file.
 2. Give execute permissions to the script:
    ```sh
-   chmod +x sleep_shutdown_timer.zsh
+   chmod +x sleep_timer_macos.zsh
