@@ -18,3 +18,20 @@ This repository contains scripts to schedule either sleep or shutdown for macOS,
 2. Give execute permissions to the script:
    ```sh
    chmod +x sleep_timer_macos.zsh
+   ´´´
+3. Run the script:
+   ```sh
+   ./sleep_timer_macos.zsh
+   ´´´
+
+### Linux
+1. Download the `sleep_timer_linux.sh` file.
+2. Give execute permissions to the script:
+   ```sh
+   chmod +x sleep_timer_linux.sh
+   ´´´
+3. Run the script:
+   ```sh
+   ./sleep_timer_linux.sh
+   ´´´
+
